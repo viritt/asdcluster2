@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-16LE" standalone="no"?><Manifest baseLocation="downloads.dell.com" dateTime="2023-10-30T15:48:52" identifier="cf70b964-2057-4890-ba5c-6dc55ea28405" releaseID="5FMRN" version="1.00">
+    <ReleaseNotes>
+        <Display lang="en">Release Notes</Display>
+    </ReleaseNotes>
+    <InventoryComponent dateTime="2023-08-11T06:31:20Z" dellVersion="A00" hashMD5="2ad4b00a55fb84db3449693a810ba0c4" osCode="LIN64" path="FOLDER10496341M/1/invcol_V5HCP_LN64_23_08_00_70_A00.BIN" releaseDate="August 11, 2023" releaseID="V5HCP" schemaVersion="2.0" vendorVersion="23.08.00"/>
+    <SoftwareBundle bundleID="PH2A10D_LIN.855" bundleType="BTLX" dateTime="2023-10-22T23:49:46" identifier="df81f8be-5f5c-4e77-bc21-5ef97a99d783" path="PER630-LIN-PH2A10D.xml" predecessorID="df81f8be-5f5c-4e77-bc21-5ef97a99d783" releaseID="PH2A10D_LIN.855" schemaVersion="2.4" size="10275960" vendorVersion="PH2A10D.855">
+        <Name>
+            <Display lang="en">System Bundle (Linux)PER630 v855</Display>
+        </Name>
+        <ComponentType value="SBDL">
+            <Display lang="en">Dell System Bundle</Display>
+        </ComponentType>
+        <Description>
+            <Display lang="en">System Bundle (Linux)PER630 v855</Display>
+        </Description>
+        <Category value="SM">
+            <Display lang="en">Systems Management</Display>
+        </Category>
+        <TargetOSes>
+            <OperatingSystem majorVersion="" minorVersion="" osCode="LIN" osVendor="DELL" preinstallationEnvironment="false" spMajorVersion="" spMinorVersion="" suiteMask="0">
+                <Display lang="en">Embedded Linux</Display>
+            </OperatingSystem>
+        </TargetOSes>
+        <TargetSystems>
+            <Brand key="3" prefix="PE">
+                <Display lang="en">PowerEdge</Display>
+                <Model systemID="0601" systemIDType="BIOS">
+                    <Display lang="en">R630</Display>
+                </Model>
+            </Brand>
+        </TargetSystems>
+        <RevisionHistory>
+            <Display lang="en"/>
+        </RevisionHistory>
+        <ImportantInfo URL="http://www.dell.com/support">
+            <Display lang="en"/>
+        </ImportantInfo>
+        <Contents>
+            <Package path="BIOS_MC31G_LN64_2.17.0.BIN"/>
+        </Contents>
+    </SoftwareBundle>
+    <SoftwareComponent containerPowerCycleRequired="0" dateTime="2023-05-22T01:46:12" dellVersion="2.17.0" hashMD5="e662042816087e711eea228162960f46" packageID="MC31G" packageType="LLXP" path="FOLDER09857660M/1/BIOS_MC31G_LN64_2.17.0.BIN" rebootRequired="true" releaseDate="May 22, 2023" releaseID="MC31G" schemaVersion="2.4" size="10275960" vendorVersion="2.17.0" xmlGenVersion="">
+        <Name>
+            <Display lang="en"><![CDATA[Dell Server PowerEdge BIOS R630/R730/R730XD Version 2.17.0]]></Display>
+        </Name>
+        <ComponentType value="BIOS">
+            <Display lang="en"><![CDATA[BIOS]]></Display>
+        </ComponentType>
+        <Description>
+            <Display lang="en"><![CDATA[For more information about specific items added and resolved in this BIOS version, see the Fixes and New and enhanced features sections.]]></Display>
+        </Description>
+        <LUCategory value="BIOS">
+            <Display lang="en"><![CDATA[BIOS]]></Display>
+        </LUCategory>
+        <Category value="BI">
+            <Display lang="en"><![CDATA[BIOS]]></Display>
+        </Category>
+        <SupportedDevices>
+            <Device componentID="159" embedded="0">
+                <Display lang="en"><![CDATA[PowerEdge Server BIOS]]></Display>
+            </Device>
+        </SupportedDevices>
+        <SupportedSystems>
+            <Brand key="3" prefix="PE">
+                <Display lang="en"><![CDATA[PowerEdge]]></Display>
+                <Model systemID="0627" systemIDType="BIOS">
+                    <Display lang="en"><![CDATA[R730xd]]></Display>
+                </Model>
+                <Model systemID="0601" systemIDType="BIOS">
+                    <Display lang="en"><![CDATA[R630]]></Display>
+                </Model>
+                <Model systemID="0600" systemIDType="BIOS">
+                    <Display lang="en"><![CDATA[R730]]></Display>
+                </Model>
+            </Brand>
+        </SupportedSystems>
+        <RevisionHistory>
+            <Display lang="en"><![CDATA[For more information about specific items added and resolved in this BIOS version, see the Fixes and New and enhanced features sections.]]></Display>
+        </RevisionHistory>
+        <ImportantInfo URL="https://www.dell.com/support/home/en-us/drivers/DriversDetails?driverId=MC31G">
+            <Display lang="en"><![CDATA[NA]]></Display>
+        </ImportantInfo>
+        <Criticality value="2">
+            <Display lang="en"><![CDATA[Urgent]]></Display>
+        </Criticality>
+    </SoftwareComponent>
+    <Prerequisites/>
+</Manifest>
