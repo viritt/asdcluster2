@@ -2,43 +2,6 @@
     <ReleaseNotes>
         <Display lang="en">Release Notes</Display>
     </ReleaseNotes>
-    <InventoryComponent dateTime="2023-08-11T06:31:20Z" dellVersion="A00" hashMD5="8fc7ace10ee8b7336f4931c2a94607da" osCode="WIN64" path="FOLDER10469179M/1/invcol_V5HCP_WIN64_23_08_00_70_A00.exe" releaseDate="August 11, 2023" releaseID="V5HCP" schemaVersion="2.0" vendorVersion="23.08.00"/>
-    <SoftwareBundle bundleID="PH2A10D_WIN64.855" bundleType="BTW64" dateTime="2023-10-22T23:49:46" identifier="aad6750a-a279-49f9-8f97-2ab153afd43a" path="PER630-WIN64-PH2A10D.xml" predecessorID="aad6750a-a279-49f9-8f97-2ab153afd43a" releaseID="PH2A10D_WIN64.855" schemaVersion="2.4" size="19885776" vendorVersion="PH2A10D.855">
-        <Name>
-            <Display lang="en">System Bundle (Windows x64)PER630 v855</Display>
-        </Name>
-        <ComponentType value="SBDL">
-            <Display lang="en">Dell System Bundle</Display>
-        </ComponentType>
-        <Description>
-            <Display lang="en">System Bundle (Windows x64)PER630 v855</Display>
-        </Description>
-        <Category value="SM">
-            <Display lang="en">Systems Management</Display>
-        </Category>
-        <TargetOSes>
-            <OperatingSystem majorVersion="" minorVersion="" osCode="WIN64" osVendor="Microsoft" preinstallationEnvironment="false" spMajorVersion="" spMinorVersion="" suiteMask="0">
-                <Display lang="en">Microsoft Windows x64</Display>
-            </OperatingSystem>
-        </TargetOSes>
-        <TargetSystems>
-            <Brand key="3" prefix="PE">
-                <Display lang="en">PowerEdge</Display>
-                <Model systemID="0601" systemIDType="BIOS">
-                    <Display lang="en">R630</Display>
-                </Model>
-            </Brand>
-        </TargetSystems>
-        <RevisionHistory>
-            <Display lang="en"/>
-        </RevisionHistory>
-        <ImportantInfo URL="http://www.dell.com/support">
-            <Display lang="en"/>
-        </ImportantInfo>
-        <Contents>
-            <Package path="BIOS_MC31G_WN64_2.17.0.EXE"/>
-        </Contents>
-    </SoftwareBundle>
     <SoftwareComponent containerPowerCycleRequired="0" dateTime="2023-05-22T01:46:12" dellVersion="2.17.0" hashMD5="3ec5e251ebd3367cdbc27c1614725847" packageID="MC31G" packageType="LW64" path="FOLDER09857656M/1/BIOS_MC31G_WN64_2.17.0.EXE" rebootRequired="true" releaseDate="May 22, 2023" releaseID="MC31G" schemaVersion="2.4" size="19885776" vendorVersion="2.17.0" xmlGenVersion="">
         <Name>
             <Display lang="en"><![CDATA[Dell Server PowerEdge BIOS R630/R730/R730XD Version 2.17.0]]></Display>
